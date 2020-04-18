@@ -1,3 +1,7 @@
+![GitHub issues](https://img.shields.io/github/issues/pedroBarata/java-swing-test) ![GitHub](https://img.shields.io/github/license/pedroBarata/java-swing-test) ![GitHub language count](https://img.shields.io/github/languages/count/pedroBarata/java-swing-test) ![GitHub repo size](https://img.shields.io/github/repo-size/pedroBarata/java-swing-test)
+
+
+
 # Login Page
 
 Projeto de testes usando Java + Swing AWT. 
@@ -13,9 +17,10 @@ Além disso, como plugin do Eclipse, é interessante possuir o ``WindowBuilder``
 Basta executar o arquivo ``Main.java``.
 
 ## Task list
+- [x] Usar o ``JTable`` sem a necessidade de libs externas;
 - [ ] Entender melhor a derivação das telas a partir do ``JPanel`` e não do ``JDialog`` ou do ``JFrame``;
-- [ ] Executar métodos com o ``JTable`` usando a lib ``rs2xml`` ou qualquer outra forma de mapear isso;
-
+- [ ] Entender sobre a lib ``rs2xml``;
+- [ ] Usar o Maven ou o Gradle para automatização de dependências do projeto;
 
 <!--## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
