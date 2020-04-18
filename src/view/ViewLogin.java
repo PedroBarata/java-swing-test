@@ -72,7 +72,12 @@ public class ViewLogin extends JFrame {
 					Account loggedAcc = loginCtrl.validateLogin(txtEmail.getText(), pwd);
 					
 					if(loggedAcc != null && loggedAcc.getUserId() != null) {
-						JOptionPane.showMessageDialog(null, "Welcome to system " + loggedAcc.getUsername()+ "!");
+//						int infoLoginPane = JOptionPane.showOptionDialog(null, "Welcome to system " + loggedAcc.getUsername()+ "!", null, JOptionPane.INFORMATION_MESSAGE, JOptionPane.INFORMATION_MESSAGE, null, null, null);
+//						if(infoLoginPane == JOptionPane.CLOSED_OPTION) {
+//							
+//						}
+						ViewTableAccounts viewTable = new ViewTableAccounts();
+						viewTable.setVisible(true);
 					} else {
 						JOptionPane.showMessageDialog(null, "Invalid email or password!");
 					}
